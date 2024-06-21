@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+#no-footer {
+    display: flex;
+}
+
+.info .nombre {
+    margin: 10px auto;
+    color: #2e4666;
+}
+
+hr {
+    height: 3px;
+    background-color: #2e4666;
+    border: none;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.enline, .header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto {
+    background-color: #1d2939;
+    padding: 20px;
+}
+
+.contacto h1 {
+    color: #3481e8;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contacto p {
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+object, .coche-ico {
+    position: relative;
+    top: 5.5px;
+}
+
+.info {
+    padding: 0 40px;
+    margin: 0;
+}
+
+.info h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.info h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.info h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.info .fecha {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    color: grey;
+}
+
+.info p, .info li {
+    font-size: 14px;
+}
+
+.centro, a {
+    font-size: small;
+    color: aqua;
+}
+
+a, .contacto a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contacto .enlace-referencia{
+    color: antiquewhite;
+}
+
+.contacto a {
+    font-size: medium;
+}
+
+.header h1, .footer p {
+    margin: 0;
+}
+
+.info {
+    background: #fff;
+    /* padding: 2em; */
+    margin-top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info .nombre {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.info h1 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.enline h3, .fecha {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.footer, .header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    justify-content: center;
+}
+
+.info .nombre {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #2e4666;
+    margin: 10px auto 0;
+}
