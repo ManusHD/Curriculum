@@ -1,134 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <title>Curriculum</title>
+    <title>Manuel Horrillo Diestro - CV</title>
+    <link rel="stylesheet" href="styles2.css">
 </head>
-
 <body>
-    <div id="no-footer">
-        <div class="contacto">
-            <img src="imagenes/perfil.jpeg">
-            <h1>CONTACTO</h1>
-            <p><object data="iconos/phone.svg" width="20" height="20"></object> 687360098</p>
-            <p><object data="iconos/map-pin.svg" width="20" height="20"></object> Pedro de Valdivia 23,
-                <br>La Coronada (Badajoz), 06469
-            </p>
-            <a style="color: white" href="mailto:manuhddev@gmail.com"><object data="iconos/mail.svg" width="20" height="20"></object> manuhddev@gmail.com</a>
-            <p><object data="iconos/icons8-birthday-50.png" width="20" height="20"></object> 01-04-2001</p>
-
-            <p></p>
-            <p>Permiso de conducir B <br>
-                <object class="coche-ico" data="iconos/icons8-car-30.png" width="20" height="20"></object> Coche propio
-            </p>
-            <br>
-
-            <h1>FORMACIÓN</h1>
-            <p>Grado en Ingeniería Informática (último curso).<br>
-                <span class="centro">Centro: Escuela Politécnica de Cáceres, Cáceres.</span>
-            </p>
-
-            <br>
-            <h1>IDIOMAS</h1>
-            <p>Español: Nativo</p>
-            <p>Inglés: Intermedio</p>
-
-            <br>
-            <h1>REFERENCIAS</h1>
-            <a class="enlace-referencia" href="https://bobblepremierleagueoficial.web.app/#/Clubes" target="_blank"><object width="20" height="20"
-                    data="iconos/logo_FEB.png"></object> Bobble Premier League</a>
-
+    <div class="cv-container">
+        <div class="sidebar">
+            <img class="profile-img" src="imagenes/perfil.jpeg" alt="Manuel Horrillo Diestro">
+            
+            <div class="sidebar-section">
+                <h2 class="sidebar-heading">Contacto</h2>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/phone.svg" type="image/svg+xml"></object>
+                    <span class="contact-text">687360098</span>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/map-pin.svg" type="image/svg+xml"></object>
+                    <span class="contact-text">Pedro de Valdivia 23, La Coronada (Badajoz), 06469</span>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/mail.svg" type="image/svg+xml"></object>
+                    <a href="mailto:manuhddev@gmail.com" class="contact-text">manuhddev@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/icons8-birthday-50.png"></object>
+                    <span class="contact-text">01-04-2001</span>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/carne.svg"></object>
+                    <span class="contact-text">Permiso de conducir B</span>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/icons8-car-30.png"></object>
+                    <span class="contact-text">Coche propio</span>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2 class="sidebar-heading">Formación</h2>
+                <p class="contact-text">Grado en Ingeniería Informática</p>
+                <p class="contact-text"><small>Escuela Politécnica de Cáceres, Cáceres.</small></p>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2 class="sidebar-heading">Idiomas</h2>
+                <p class="contact-text">Español: Nativo</p>
+                <p class="contact-text">Inglés: Intermedio</p>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2 class="sidebar-heading">Referencias</h2>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/LogoBlanco.png"></object>
+                    <a class="contact-text" href="https://coexate.web.app/" target="_blank">COEXATE</a>
+                </div>
+                <div class="contact-item">
+                    <object class="contact-icon" data="iconos/logo_FEB.png"></object>
+                    <a class="contact-text" href="https://bobblepremierleagueoficial.web.app" target="_blank">Bobble Premier League</a>
+                </div>
+            </div>
         </div>
-
-        <div class="info">
-            <p class="nombre">Manuel Horrillo Diestro</p>
-            <hr>
-            <h1>Sobre mí</h1>
-            <p>
-                Soy un estudiante de informática con experiencia en diversas tecnologías y lenguajes de programación, incluyendo Angular, TypeScript, JavaScript, Java, HTML, CSS, Oracle SQL, MySQL y C++. Apasionado por la tecnología, el aprendizaje continuo y la resolución de problemas, busco desarrollarme profesionalmente en el sector TIC.
-            </p>
+        
+        <div class="main-content">
+            <h1 class="name-title">Manuel Horrillo Diestro</h1>
+            <div class="section-divider"></div>
             
-            <h1>Experiencia laboral</h1>
+            <div class="main-section">
+                <h2 class="section-title">Sobre mí</h2>
+                <p>Soy un estudiante recién graduado con muchas ganas de seguir aprendiendo y creciendo profesionalmente. Me interesa especialmente el desarrollo de software y disfruto mucho resolviendo problemas. Durante la carrera y mis primeros proyectos personales y académicos, he tenido la oportunidad de trabajar tanto en el frontend como en el backend, utilizando lenguajes y herramientas modernas como Angular, TypeScript, Java, JavaScript, HTML, CSS, SpringBoot, Oracle SQL, MySQL y C++.</p>
+                <p>Me gusta tener una visión completa de lo que estoy construyendo, por eso siempre intento entender bien los procesos detrás de cada aplicación, más allá del código. Me considero una persona curiosa, responsable y constante, no me gusta dejar las cosas a medias y suelo implicarme bastante en lo que hago.</p>
+                <p>Ahora mismo estoy buscando una oportunidad donde pueda seguir desarrollando mis habilidades, aportar desde el primer día y aprender de profesionales con experiencia.</p> 
+            </div>
             
-            <h2>Socio colaborador de Muebles Horrillo</h2>
-            <div class="enline">
-                <h3>Muebles Horrillo CB, La Coronada (Badajoz)</h3>
-                <h3 class="fecha">Julio y Agosto (2016-2022)</h3>
+            <div class="main-section">
+                <h2 class="section-title">Experiencia laboral</h2>
+                
+                <div class="job-item">
+                    <h3 class="job-title">Gestión y desarrollo del sistema Dolibarr</h3>
+                    <div class="job-details">
+                        <span class="job-company">Expide, Lobón (Badajoz)</span>
+                        <span class="job-date">Julio 2023 - Septiembre 2023</span>
+                    </div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Configuración y uso de Dolibarr para seguimiento de clientes y administración de inventario.</li>
+                            <li>Personalización de la interfaz de Dolibarr para adaptarse a las necesidades específicas de la empresa.</li>
+                            <li>Optimización de procesos internos en colaboración como reducir el número de pasos entre acciones o autorellenar campos automáticamente.</li>
+                            <li>Importación de datos a la base de datos y configuración de la plataforma desde SiteGround.</li>
+                            <li>Creación y personalización de objetos en el código como facturas, presupuestos y pedidos.</li>
+                            <li>Integración y personalización del módulo TPV para su uso efectivo.</li>
+                            <li>Modificación de módulos en PHP para generar PDFs personalizados y agregar nuevas funcionalidades.</li>
+                            <li>Colaboración en la creación de nuevas funcionalidades y la mejora de la experiencia del usuario y la eficiencia del sistema.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="job-item">
+                    <h3 class="job-title">Aplicación Web de Gestión de Pedidos e Inventario para CHANEL España</h3>
+                    <div class="job-details">
+                        <span class="job-company">Delim, Cienpozuelos (Madrid)</span>
+                        <span class="job-date">Noviembre 2024 - Continuo desarrollo</span>
+                    </div>
+                    <div class="job-description">
+                        <ul>
+                            <li>Diseñé e implementé una aplicación web a medida y específica que permite registrar los movimientos de productos, desde su ingreso en el almacén hasta la salida para distribución. La solución integra un sistema de importación de datos desde con hojas Excel, conservando la facilidad para reutilizar información histórica. Además, se incorporaron validaciones en tiempo real como al ingresar la referencia de un producto, el sistema verifica su existencia y autorrellena campos críticos, minimizando errores y evitando incongruencias en el proceso, incluso restringiendo movimientos que no deberían de poder hacerse en condiciones normales.</li>
+                            <li>La aplicación también incluye un sistema de gestión de usuarios, permitiendo la creación y modificación de cuentas con diferentes niveles de acceso y permisos. Esto garantiza que cada usuario tenga acceso solo a las funciones necesarias para su trabajo, mejorando la seguridad y la eficiencia del sistema.</li>
+                            <li>La interfaz de usuario fue diseñada para ser intuitiva y fácil de usar, con un enfoque en la usabilidad y la experiencia del usuario. Se implementaron gráficos y visualizaciones para facilitar la comprensión de los datos y ayudar a los usuarios a tomar decisiones informadas.</li>
+                            <li>La aplicación está disponible en la nube y se encuentra actualmente en desarrollo, con la finalidad de mejorar su funcionalidad y experiencia de usuario.</li>
+                            <li><strong>Tecnologías:</strong> Angular 16, Spring Boot 17, MySQL</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul>
-                <li>Montaje y ensamblaje de muebles de alta calidad, asegurando una entrega impecable y satisfacción del cliente.</li>
-                <li>Coordinación y ejecución de la logística de transporte, garantizando la llegada segura y puntual de los muebles.</li>
-                <li>Ensamblaje de diversos muebles, incluyendo armarios, camas, canapés, mesas y sillas.</li>
-                <li>Instalación precisa de muebles de cocina, lámparas y cuadros, agregando toques finales a la decoración de interiores.</li>
-                <li>Interacción directa con los clientes para garantizar una experiencia positiva y proporcionar orientación sobre el cuidado de los muebles.</li>
-                <li>Mantenimiento de un historial preciso de entregas y montajes, contribuyendo a la reputación de la empresa por su profesionalismo y calidad de servicio.</li>
-            </ul>
-             
-            <h2>Gestión y desarrollo del sistema Dolibarr</h2>
-            <div class="enline">
-                <h3>Expide, Lobón (Badajoz)</h3>
-                <h3 class="fecha">Julio 2023 - Septiembre 2023</h3>
+            
+            <div class="main-section">
+                <h2 class="section-title">Habilidades técnicas</h2>
+                <div class="skills-container">
+                    <p><span class="skill-category">Lenguajes de Programación:</span> Java, C++, TypeScript, JavaScript, HTML, CSS, PHP, Python</p>
+                    <p><span class="skill-category">Frameworks:</span> Angular 2, React, SpringBoot, Servlet, Tomcat</p>
+                    <p><span class="skill-category">Bases de datos:</span> MySQL, SQL Oracle, SQLite, PostgreSQL, PL/PgSQL</p>
+                    <p><span class="skill-category">Desarrollo de Aplicaciones Distribuidas:</span> JavaRMI</p>
+                    <p><span class="skill-category">Herramientas de Desarrollo:</span> Visual Studio Code, Eclipse, BlueJ, Jupyter, Git, GitFlow</p>
+                    <p><span class="skill-category">Patrones de Diseño:</span> MVC, Singleton, Observer</p>
+                    <p><span class="skill-category">Creación de APIRest con SpringBoot:</span> Experiencia en desarrollo de APIs con SpringBoot</p>
+                    <p><span class="skill-category">Metodologías Ágiles:</span> SCRUM</p>
+                </div>
             </div>
-            <ul>
-                <li>Configuración y uso de Dolibarr para seguimiento de clientes y administración de inventario.</li>
-                <li>Personalización de la interfaz de Dolibarr para adaptarse a las necesidades específicas de la empresa.</li>
-                <li>Optimización de procesos internos en colaboración con el equipo mediante las capacidades de Dolibarr.</li>
-                <li>Importación de datos a la base de datos y configuración de la plataforma desde SiteGround.</li>
-                <li>Creación y personalización de objetos como facturas, presupuestos y pedidos.</li>
-                <li>Integración y personalización del módulo TPV para su uso efectivo.</li>
-                <li>Modificación de módulos en PHP para generar PDFs personalizados y agregar nuevas funcionalidades.</li>
-                <li>Colaboración en la creación de nuevas funcionalidades y la mejora de la experiencia del usuario y la eficiencia del sistema.</li>
-            </ul>
-
-            <h1>Habilidades técnicas</h1>
-            <p>
-                <b>Lenguajes de Programación:</b> Java, C++, TypeScript, JavaScript, HTML, CSS, PHP, Python<br>
-                <b>Frameworks:</b> Angular, React, Servlet, Tomcat<br>
-                <b>Bases de datos:</b> SQL Oracle, MySQL, SQLite, PostgreSQL, PL/PgSQL<br>
-                <b>Desarrollo de Aplicaciones Distribuidas:</b> JavaRMI<br>
-                <b>Herramientas de Desarrollo:</b> Eclipse, Visual Studio Code, BlueJ, Jupyter, Git, GitFlow<br>
-                <b>Patrones de Diseño:</b> MVC, Singleton, Observer<br>
-                <b>Creación de APIs con Express:</b> Experiencia en desarrollo de APIs con Express<br>
-                <b>Metodologías Ágiles:</b> SCRUM
-            </p>
-
-            <h1>Proyectos destacados</h1>
-            <p>
-                <b>Página web Bobble Premier League</b><br>
-                Desarrollo de una página web para el videojuego Bobble League de Discord, proporcionando información detallada sobre clasificaciones, partidos, clubes, récords, premios y estadísticas de jugadores. La página utiliza una hoja de Google Sheets como base de datos. Actualmente, la página está creada utilizando Angular para ofrecer un rendimiento óptimo y funcionalidades avanzadas.
-                <br>Enlace: <a href="https://bobblepremierleagueoficial.web.app/#/Clasificacion/4" target="_blank">https://bobblepremierleagueoficial.web.app/</a>
-                <br> Como proyecto de clase, la página se migró a React respetando las funcionalidades que tenía en Angular.
-                <br><br>
+            
+            <div class="main-section">
+                <h2 class="section-title">Proyectos destacados</h2>
                 
-                <b>Aplicación de Pedidos de Comida en Angular</b><br>
-                Desarrollo de una aplicación similar a JustEat utilizando Angular y TypeScript, con funcionalidades como inicio de sesión, registro de usuarios y gestión de cuentas de restaurantes y platos. Creación de una API REST con Express para la comunicación con la base de datos SQLite.
-                <br><br>
+                <div class="projects-item">
+                    <h3 class="project-title">Aplicación Web de Gestión de Pedidos e Inventario para CHANEL España</h3>
+                    <p class="project-description">
+                        Herramienta especializada para la empresa DELIM, encargada del almacenamiento y distribución de productos de Chanel. La aplicación permite el seguimiento detallado de los movimientos de inventario, tanto del almacén como de las diferentes ubicaciones asigandas, además de ofrecer un seguimiento detallado de los pedidos de entrada/salida realizados, dando la posibilidad de importar datos de hojas Excel para facilitar la importación de información.
+                    </p>
+                    <p class="project-description">
+                        La herramienta almacena los PDV y direcciones relevantes para poder reutilizarlas cuando sea necesario, mejorando la gestión de la información. Registro detallado de movimientos desde la entrada en almacén hasta la salida en pedidos. Sistema de validación en tiempo real: al ingresar una referencia, se comprueba la existencia y se autorrellenan campos esenciales para evitar errores.
+                    </p>
+                    <p class="project-description">
+                        Integración de distintos puntos de recogida y destinos (Colaboradores, Puntos de Venta y Otras direcciones), lo cual permite una gestión precisa de las ubicaciones y facilita la planificación de rutas y entregas. Todo esto mejoró notablemente la eficiencia operativa de la empresa, permitiendo pasar de una gestión manual con hojas de cálculo a un sistema automatizado y preciso. Esto llevó a reducir errores humanos y tiempos de respuesta más ágiles.
+                    </p>
+                </div>
                 
-                <b>Aplicación de Pedidos de Comida JSP y Servlet</b><br>
-                Desarrollo de la misma aplicación anterior, pero utilizando JSP y Servlet.
-                <br><br>
+                <div class="projects-item">
+                    <h3 class="project-title">Página web informativa para el Centro de Mayores Coexate</h3>
+                    <p class="project-description">
+                        Diseñé y desarrollé una página web sencilla pero funcional para el Centro de Mayores Coexate. El objetivo era ofrecer un espacio claro y accesible donde cualquier persona pudiera informarse sobre los servicios que ofrece el centro, conocer su historia y al equipo de profesionales que trabaja allí. La web está pensada para ser intuitiva y fácil de navegar, especialmente para personas mayores o familiares que no están tan familiarizados con la tecnología.
+                    </p>
+                    <a class="project-link" href="https://coexate.web.app/" target="_blank">Ver proyecto</a>
+                </div>
                 
-                <b>Aplicación del Tiempo (Kotlin)</b> <br>
-                Desarrollo de una aplicación del tiempo en Kotlin, con control de versiones, identificación de stakeholders y creación de historias de usuario entre otros análisis. Se utilizó una rama de Git por cada HU, todo sincronizado con Android Studio, Jira y Git. El proyecto incluía integración continua y reuniones SCRUM semanales.
-                <br><br>
+                <div class="projects-item">
+                    <h3 class="project-title">Página web Bobble Premier League [Proyecto personal]</h3>
+                    <p class="project-description">
+                        Desarrollo de una página web como proyecto personal para el videojuego Bobble League de Discord, proporcionando información detallada sobre clasificaciones, partidos, clubes, récords, premios y estadísticas de jugadores. La página utiliza una hoja de Google Sheets como base de datos. Actualmente, la página está creada utilizando Angular para ofrecer un rendimiento óptimo y funcionalidades avanzadas.
+                    </p>
+                    <p class="project-description">
+                        Como proyecto de clase, la página se migró a React respetando las funcionalidades que tenía en Angular.
+                    </p>
+                    <a class="project-link" href="https://bobblepremierleagueoficial.web.app" target="_blank">Ver proyecto</a>
+                </div>
                 
-                <b>Aplicación de Gestión de Repartos (Java)</b> <br>
-                Desarrollo de una aplicación similar a Uber para la gestión de repartos, implementando programación concurrente y distribuida con JavaRMI y el uso de hilos para mejorar el rendimiento del sistema.
-                <br><br>
+                <div class="projects-item">
+                    <h3 class="project-title">Aplicación de Pedidos de Comida en Angular [Proyecto individual de clase]</h3>
+                    <p class="project-description">
+                        Desarrollo de una aplicación similar a JustEat utilizando Angular y TypeScript, con funcionalidades como inicio de sesión, registro de usuarios y gestión de cuentas de restaurantes y platos. Creación de una API REST con Express para la comunicación con la base de datos SQLite.
+                    </p>
+                </div>
                 
-                <b>Juego similar a CandyCrush (C++)</b><br>
-                Creación de un juego inspirado en CandyCrush utilizando C++, con implementación de algoritmos de juego, interacciones con el usuario y gráficos básicos.
-                <br><br>
-            </p>
+                <div class="projects-item">
+                    <h3 class="project-title">Aplicación del Tiempo (Kotlin)</h3>
+                    <p class="project-description">
+                        Desarrollo de una aplicación del tiempo en Kotlin, con control de versiones, identificación de stakeholders y creación de historias de usuario entre otros análisis. Se utilizó una rama de Git por cada HU, todo sincronizado con Android Studio, Jira y Git. El proyecto incluía integración continua y reuniones SCRUM semanales para el seguimiento de la evolución del proyecto con los miembros de desarrollo.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+    
     <div class="footer">
         <p>&copy; 2024 Manuel Horrillo Diestro</p>
     </div>
 </body>
-
 </html>

@@ -86,6 +86,10 @@ object, .coche-ico {
     font-size: 14px;
 }
 
+.info li {
+    margin-bottom: 5px;
+}
+
 .centro, a {
     font-size: small;
     color: aqua;
