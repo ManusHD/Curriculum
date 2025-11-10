@@ -257,6 +257,13 @@ a:hover {
     margin-bottom: 1rem;
 }
 
+.portfolio-link {
+    color: var(--light-text);
+    font-weight: 600;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
 /* Highlight del proyecto */
 .project-highlight {
     background-color: rgba(34, 197, 94, 0.1);
